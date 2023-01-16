@@ -1,0 +1,405 @@
+/* publiiic */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&family=Roboto&display=swap');
+body{
+    font-family:'Alegreya', serif;
+
+}
+*{
+    padding: 0;
+    margin:0;
+}
+
+ul{
+    list-style-type: none;
+}
+.list-item a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding-right:20px;
+}
+
+
+
+.header{
+    text-align: center;
+    background-image: url('../image/header\ image.jpg');
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    position:relative;
+    
+   
+}
+/* navbar */
+
+.navbar{
+    overflow: hidden;
+    margin-top:50px;
+}
+.navbar .logo{
+   
+    float:left;
+    width:40%;
+}
+.navbar .nav{
+
+    float:left;
+    width:60%;;
+    margin-top: 30px;
+    }
+    
+ .logo img{
+    width:25%;
+   
+}
+.nav .list-item{
+    display:inline-block;
+}
+ .content h1{
+    color:white;
+    font-size:90px;
+    font-weight: 400;
+    font-family:'Alegreya', serif;
+}
+/* content */
+.content{
+    margin-top:100px;
+}
+.content img{
+    width:25%;
+}
+.content p{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size:50px;
+
+}
+.content button{
+    font-size: 20px;
+    border:none;
+    padding:15px 30px;
+   
+
+}
+.btn-learn{
+    background-color: #c1ab84;
+    color:white;
+    margin-right: 10px;
+}
+.btn-learn:hover{
+   background-color: white;
+   color:black;
+    cursor:pointer;
+
+}
+ .header .overlay{
+
+    background-size:cover;
+  /* if we put height:100vh; will put it just to header */
+    position:absolute;
+   height:100vh;
+   width:100%;
+
+    background-color: rgba(0,0, 0 , 0.2);
+
+}
+.header{
+    text-align: center;
+    background-image: url('../image/header\ image.jpg');
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    position:relative;
+    
+   
+}
+.About{
+    overflow: hidden;
+  position:relative;
+    margin-right: 50px;
+    
+}
+
+.About .image{
+
+width:30%;
+position:absolute;
+}
+.About .image  img{
+    width:100%;
+}
+
+.About .about-content{
+    float:right;
+   width:70%;
+  
+  padding-left: 200px;
+  box-sizing: border-box;
+  padding-top:50px;
+
+}
+.about-content h2{
+    margin-top:20px;
+    margin-left: 90px;
+    font-size:30px;
+    color:#253048;
+    margin-bottom: 20px;
+    font-weight: 200px;;
+}
+.about-content .firstpara{
+margin-left: 125px;
+font-size:25px;
+font-family: 'Dancing Script', cursive;
+color:#c1ab84;
+}
+.about-content .seconedpara{
+    width:75%;
+    margin-top:20px;
+    font-size:20px;
+   
+}
+.about-content ul li{
+margin-top:25px;
+margin-bottom: 25px;
+font-size:20px;
+}
+.about-content ul i{
+    text-align: center;
+    background-color: #c1ab84;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    color:white;
+padding-top:5px;
+
+
+
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+/* start revierwers &location section*/
+.reviewers .container , .location .container{
+   
+ 
+    overflow: hidden;
+
+
+}
+
+ .container .reviewers-content , .location-content{
+    float:left;
+    width:50%;
+    margin-top: 50px;
+   
+   
+  
+}
+
+.reviewers  {
+    background-color: #f8f8f8;
+    padding: 0px;
+   
+    
+}
+.img-reviewers img ,.map-location .map{
+   margin-top: 50px;
+    width:80%;
+   
+
+}
+.img-reviewers , .map-location{
+float:right;
+width:50%;
+
+}
+
+.reviewers-content h2 {
+    font-weight: 400;
+    font-family:'Alegreya', serif;
+    margin-left: 100px;
+    color: rgb(37, 48, 72);
+    font-size: 30px;
+  
+    margin-bottom: 10px;
+    
+}
+.reviewers-content h3{
+    font-family: 'Dancing Script', cursive;
+    color:#c1ab84;
+    margin-left: 100px;
+}
+.reviewers-content p  {
+    margin-left:100px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    width:75%;
+   
+}
+.reviewers-content li i {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    color: #c1ab84;
+    
+}
+.reviewers-content li ,.location-content li{
+    margin-top:30px;
+}
+
+.cover{
+   
+        background-image: url(../image/shutterstock_280369721.jpg);
+        padding: 250px 0;
+        background-size: cover;
+        background-attachment: fixed;
+   
+}
+/*end reviewers section */
+
+/* start menu section */
+ .container .p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color:#c1ab84;
+}
+h2{
+    font-size: 25px;
+    font-weight: 400px;
+    font-family:'Alegreya', serif ;
+}
+.menu{
+   text-align: center;
+    background-color: #f8f8f8;
+}
+.menu .container{
+    
+    overflow: hidden;
+}
+
+ .container .menu-content .item { 
+    float:left;
+    width:33.33%;
+    
+}
+.menu-content .item p,h4{
+    font-family: 'normal';
+    color:black;
+    width: 70%;
+   margin:auto;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.menu-content .item img{
+    width:75%;
+}
+
+/* location section */
+.location-content p{
+   
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    width:80%;
+}
+.location{
+    background-color:white;
+    margin-top: 70px;
+}
+.location-content i{
+
+
+    color:white;
+    margin-right: 15px;
+    background-color:#c1ab84;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+    box-sizing: border-box;
+
+}
+.map-location .map{
+
+ 
+    margin-left: 40px;
+    width:500px;
+    height:400px;
+}
+
+/*footer section */
+.footer-content .item{
+    float:left;
+    width:25%;
+
+}
+.footer-content{
+    overflow:hidden;
+}
+.footer-content .item p{
+    width:80%;
+    margin-top: 30px;
+
+     
+}
+
+.footer-content .item ul li {
+padding-top: 20px;
+color:white;
+margin-bottom: 10px;
+
+}
+
+
+
+.footer-content .item ul a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+}
+.footer-content .item p{
+    color:white;
+    margin-bottom: 30px;
+ 
+}
+.footer{
+    background-color: #403d38;
+    
+}
+.footer-content .item {
+    margin-top: 20px;
+}
+.footer .footer-seconed{
+    text-align: center;
+    background-color: #353330;
+
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+}
+.footer .footer-seconed .icons i{
+    background-color: #c1ab84;
+    width: 50px;
+    height:50px;
+    color:white;
+    text-align: center;
+    border-radius: 25%;
+    padding-top: 12px;
+    box-sizing: border-box;
+   
+  
+   font-size: 20px;
+   margin-top: 15px;
+
+
+}
+.footer-content .item h2{
+    font-family:'Alegreya', serif; 
+
+    font-weight: 400px;
+}
